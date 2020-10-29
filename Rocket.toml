@@ -1,0 +1,6 @@
+[development]
+port = 3000
+address = "127.0.0.1"
+
+[development.databases]
+postgres = { url = "postgres://rocket:rocket@127.0.0.1/rocket" }

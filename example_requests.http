@@ -1,0 +1,25 @@
+GET http://127.0.0.1:3000/hello
+
+###
+
+GET http://127.0.0.1:3000/hello/<name>
+
+###
+
+GET http://127.0.0.1:3000/todos
+
+###
+
+POST http://127.0.0.1:3000/todos
+content-type: application/json
+
+{
+    "id": 1,
+    "title": "Get JM soldering lessons for christmas",
+    "checked": false
+}
+
+###
+
+PUT http://127.0.0.1:3000/todos/<id>
+content-type: application/json
